@@ -1,0 +1,7 @@
+# La versión actual usa solo librerías estándar de Python para servir el dashboard.
+# Estas dependencias quedan declaradas para la evolución de la plataforma.
+pandas>=2.2
+polars>=1.0
+plotly>=5.22
+gffutils>=0.13
+matplotlib>=3.8

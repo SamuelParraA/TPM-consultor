@@ -1,0 +1,8 @@
+services:
+  buscador-expresion:
+    build:
+      context: .
+      dockerfile: Dockerfile.standalone
+    ports:
+      - "8765:8765"
+    restart: unless-stopped

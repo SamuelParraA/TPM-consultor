@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+data/
+.env
+config.local.json
+rnaseq_index.sqlite
