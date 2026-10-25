@@ -3,7 +3,7 @@
   "pipeline": "Peipers-RNAseq docente",
   "pipeline_version": "1.0.0",
   "project_id": "PRJNA1347747",
-  "created_utc": "2026-09-24T16:43:46.488269+00:00",
+  "created_utc": "2026-10-25T16:35:14.387984+00:00",
   "reference": "ITAG4.0",
   "salmon_version": "2.0.1",
   "sample_count": 18,
@@ -61,8 +61,8 @@
     },
     {
       "path": "metadata/sample_metadata.tsv",
-      "bytes": 3444,
-      "sha256": "71eae0468026489c6c80abf01da13e79efa51258aa9262d3fde485d134bf0dfd"
+      "bytes": 3448,
+      "sha256": "77e3641cdf676f8cf48f9d0243aa91553964db6af4ae596778acadf864033112"
     },
     {
       "path": "qc/multiqc_data/fastqc-status-check-heatmap.txt",

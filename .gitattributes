@@ -5,3 +5,5 @@
 *.yml text eol=lf
 *.env text eol=lf
 *.md text eol=lf
+
+datasets/** -text !eol
