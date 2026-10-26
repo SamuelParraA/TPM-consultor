@@ -1,0 +1,13 @@
+services:
+  expresion-tomate:
+    build: .
+    ports:
+      - "8765:8765"
+    volumes:
+      - "${SALMON_DIR:-./example_data/salmon}:/data/salmon:ro"
+      - "${REFERENCE_DIR:-./example_data/reference}:/data/reference:ro"
+      - "./sample_metadata.csv:/app/sample_metadata.csv:ro"
+      - "./data:/app/data"
+    environment:
+      METADATA_PATH: /app/sample_metadata.csv
+    restart: unless-stopped

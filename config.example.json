@@ -1,0 +1,7 @@
+{
+  "data_root": "I:\\transcriptomica",
+  "reference_dir": "I:\\transcriptomica\\reference",
+  "annotation_dir": "I:\\transcriptomica\\annotation",
+  "gff": "I:\\transcriptomica\\reference\\ITAG4.0_gene_models.gff",
+  "experiments": []
+}

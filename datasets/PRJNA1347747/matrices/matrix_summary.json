@@ -1,0 +1,7 @@
+{
+  "samples": 18,
+  "transcripts": 33976,
+  "genes": 34075,
+  "reference": "ITAG4.0",
+  "aggregation": "gene TPM and NumReads are sums across transcripts mapped by the ITAG4.0 GFF"
+}

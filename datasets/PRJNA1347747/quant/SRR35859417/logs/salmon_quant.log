@@ -1,0 +1,10 @@
+salmon (rust port) v2.0.1
+start: Tue Sep 22 16:46:28 2026
+end:   Tue Sep 22 16:48:15 2026
+library type: ISR
+mapping type: mapping
+observed fragments: 35239907
+mapped fragments:   27972661
+mapping rate: 79.3778%
+number of equivalence classes: 46967
+fragment length mean (sd): 179.46 (63.02)

@@ -1,0 +1,13 @@
+name: peipers-rnaseq-tomate
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - salmon=2.0.1
+  - fastqc=0.12.1
+  - multiqc>=1.25,<2
+  - wget>=1.21
+  - ca-certificates
+  - coreutils
+  - procps-ng

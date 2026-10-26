@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Si utiliza Peipers-RNAseq, cite este software y conserve su atribución."
+title: "Peipers-RNAseq docente para tomate"
+type: software
+authors:
+  - family-names: "Parra A."
+    given-names: "Samuel"
+    affiliation: "Centro de Biotecnología Molecular Vegetal, Departamento de Ciencias, Universidad de Chile"
+    email: "sa.parra@uandresbello.edu"
+    orcid: "https://orcid.org/0000-0002-9129-4133"
+version: 1.0.0
+date-released: 2026-08-10
+license: MIT
+repository-code: "https://github.com/SamuelParraA/TPM-consultor"

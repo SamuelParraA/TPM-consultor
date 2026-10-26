@@ -1,0 +1,15 @@
+{
+  "salmon_version": "2.0.1",
+  "index": "/home/matah/peipers-rnaseq-work/PRJNA1347747/reference/ITAG4.0/salmon_index_k31",
+  "libType": "A",
+  "output": "/home/matah/peipers-rnaseq-work/PRJNA1347747/quant/SRR35859420.building.1332",
+  "mates1": [
+    "/home/matah/peipers-rnaseq-work/PRJNA1347747/fastq/SRR35859420_1.fastq.gz"
+  ],
+  "mates2": [
+    "/home/matah/peipers-rnaseq-work/PRJNA1347747/fastq/SRR35859420_2.fastq.gz"
+  ],
+  "unmatedReads": [],
+  "threads": 4,
+  "sketch": false
+}

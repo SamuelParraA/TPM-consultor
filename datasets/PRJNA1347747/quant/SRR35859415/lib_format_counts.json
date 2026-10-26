@@ -1,0 +1,13 @@
+{
+  "read_files": [
+    "/home/matah/peipers-rnaseq-work/PRJNA1347747/fastq/SRR35859415_1.fastq.gz",
+    "/home/matah/peipers-rnaseq-work/PRJNA1347747/fastq/SRR35859415_2.fastq.gz"
+  ],
+  "expected_format": "ISR",
+  "compatible_fragment_ratio": 1.0,
+  "num_compatible_fragments": 25771775,
+  "num_assigned_fragments": 25771775,
+  "num_frags_with_concordant_consistent_mappings": 24347304,
+  "num_frags_with_inconsistent_or_orphan_mappings": 1424471,
+  "strand_mapping_bias": 0.0
+}

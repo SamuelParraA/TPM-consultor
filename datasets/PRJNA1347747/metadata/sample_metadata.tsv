@@ -1,0 +1,19 @@
+SampleID	biological_name	group	treatment	timepoint	replicate	color	comments	order	genotype	salinity_mM	tissue	project_id
+SRR35859425	UD/WT - Control	WT	Control	UD/WT - Control	R1	#4C78A8	Hoja; vástago UniDarkwin; portainjerto Micro-Tom WT; 100 días de tratamiento	1	WT	0	leaf	PRJNA1347747
+SRR35859424	UD/WT - Control	WT	Control	UD/WT - Control	R2	#4C78A8	Hoja; vástago UniDarkwin; portainjerto Micro-Tom WT; 100 días de tratamiento	2	WT	0	leaf	PRJNA1347747
+SRR35859415	UD/WT - Control	WT	Control	UD/WT - Control	R3	#4C78A8	Hoja; vástago UniDarkwin; portainjerto Micro-Tom WT; 100 días de tratamiento	3	WT	0	leaf	PRJNA1347747
+SRR35859408	UD/WT - 75 mM NaCl	WT	Salt	UD/WT - 75 mM NaCl	R1	#1F4E79	Hoja; vástago UniDarkwin; portainjerto Micro-Tom WT; 100 días con 75 mM NaCl	4	WT	75	leaf	PRJNA1347747
+SRR35859423	UD/WT - 75 mM NaCl	WT	Salt	UD/WT - 75 mM NaCl	R2	#1F4E79	Hoja; vástago UniDarkwin; portainjerto Micro-Tom WT; 100 días con 75 mM NaCl	5	WT	75	leaf	PRJNA1347747
+SRR35859422	UD/WT - 75 mM NaCl	WT	Salt	UD/WT - 75 mM NaCl	R3	#1F4E79	Hoja; vástago UniDarkwin; portainjerto Micro-Tom WT; 100 días con 75 mM NaCl	6	WT	75	leaf	PRJNA1347747
+SRR35859414	UD/epi - Control	epi	Control	UD/epi - Control	R1	#F58518	Hoja; vástago UniDarkwin; portainjerto epi productor alto de etileno; 100 días de tratamiento	7	epi	0	leaf	PRJNA1347747
+SRR35859413	UD/epi - Control	epi	Control	UD/epi - Control	R2	#F58518	Hoja; vástago UniDarkwin; portainjerto epi productor alto de etileno; 100 días de tratamiento	8	epi	0	leaf	PRJNA1347747
+SRR35859412	UD/epi - Control	epi	Control	UD/epi - Control	R3	#F58518	Hoja; vástago UniDarkwin; portainjerto epi productor alto de etileno; 100 días de tratamiento	9	epi	0	leaf	PRJNA1347747
+SRR35859421	UD/epi - 75 mM NaCl	epi	Salt	UD/epi - 75 mM NaCl	R1	#B35A00	Hoja; vástago UniDarkwin; portainjerto epi productor alto de etileno; 100 días con 75 mM NaCl	10	epi	75	leaf	PRJNA1347747
+SRR35859420	UD/epi - 75 mM NaCl	epi	Salt	UD/epi - 75 mM NaCl	R2	#B35A00	Hoja; vástago UniDarkwin; portainjerto epi productor alto de etileno; 100 días con 75 mM NaCl	11	epi	75	leaf	PRJNA1347747
+SRR35859419	UD/epi - 75 mM NaCl	epi	Salt	UD/epi - 75 mM NaCl	R3	#B35A00	Hoja; vástago UniDarkwin; portainjerto epi productor alto de etileno; 100 días con 75 mM NaCl	12	epi	75	leaf	PRJNA1347747
+SRR35859411	UD/ACCD - Control	ACCD	Control	UD/ACCD - Control	R1	#54A24B	Hoja; vástago UniDarkwin; portainjerto ACCD de bajo etileno; 100 días de tratamiento	13	ACCD	0	leaf	PRJNA1347747
+SRR35859410	UD/ACCD - Control	ACCD	Control	UD/ACCD - Control	R2	#54A24B	Hoja; vástago UniDarkwin; portainjerto ACCD de bajo etileno; 100 días de tratamiento	14	ACCD	0	leaf	PRJNA1347747
+SRR35859409	UD/ACCD - Control	ACCD	Control	UD/ACCD - Control	R3	#54A24B	Hoja; vástago UniDarkwin; portainjerto ACCD de bajo etileno; 100 días de tratamiento	15	ACCD	0	leaf	PRJNA1347747
+SRR35859418	UD/ACCD - 75 mM NaCl	ACCD	Salt	UD/ACCD - 75 mM NaCl	R1	#1B7F3A	Hoja; vástago UniDarkwin; portainjerto ACCD de bajo etileno; 100 días con 75 mM NaCl	16	ACCD	75	leaf	PRJNA1347747
+SRR35859417	UD/ACCD - 75 mM NaCl	ACCD	Salt	UD/ACCD - 75 mM NaCl	R2	#1B7F3A	Hoja; vástago UniDarkwin; portainjerto ACCD de bajo etileno; 100 días con 75 mM NaCl	17	ACCD	75	leaf	PRJNA1347747
+SRR35859416	UD/ACCD - 75 mM NaCl	ACCD	Salt	UD/ACCD - 75 mM NaCl	R3	#1B7F3A	Hoja; vástago UniDarkwin; portainjerto ACCD de bajo etileno; 100 días con 75 mM NaCl	18	ACCD	75	leaf	PRJNA1347747

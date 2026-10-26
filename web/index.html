@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Perfil de expresión transcriptómica en tomate</title>
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="salinity.css">
+</head>
+<body>
+  <header><div class="brand"><span class="mark">RNA</span><div><b>Perfil de expresión transcriptómica en tomate</b><small>Basado en Salmon + ITAG4.0</small></div></div><div id="status">Cargando…</div></header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">PLATAFORMA DE EXPLORACIÓN TRANSCRIPTÓMICA</p>
+      <h1>Perfil de expresión transcriptómica en tomate</h1>
+      <p class="subtitle">Busca por ITAG, alias, nombre, descripción, GO, familia o pathway. Separa múltiples genes con comas.</p>
+      <label class="experiment-picker">Experimento <select id="experiment"></select></label>
+      <div class="search"><span>⌕</span><input id="query" autofocus placeholder="ACS7, ACO2, Solyc07g049530, protein kinase" autocomplete="off"><button id="search-button">Buscar</button></div>
+      <div id="results" class="results hidden"></div><p id="not-found" class="warning hidden"></p>
+    </section>
+    <section id="empty" class="empty"><div class="pulse">⌁</div><h2>Consulta uno o varios genes</h2><p>Los resultados se resumen usando los metadatos del experimento seleccionado.</p></section>
+    <section id="detail" class="detail hidden">
+      <div class="toolbar"><label>Ordenar genes <select id="sort"><option value="manual">Orden de consulta</option><option value="max">TPM máximo</option><option value="fold">Fold-change</option><option value="similarity">Similitud temporal</option></select></label><div><button id="csv">CSV</button><button id="excel">Excel</button><button id="svg">SVG</button><button id="png">PNG</button><button id="pdf">PDF</button></div></div>
+      <div class="panel"><div class="panel-title"><div><h3>Tabla resumen</h3><p>TPM promedio por condición/temporalidad</p></div></div><div class="table-wrap"><table class="matrix"><thead id="summary-head"></thead><tbody id="summary-body"></tbody></table></div></div>
+      <div id="multi" class="multi-grid hidden"><div class="panel"><h3>Heatmap</h3><div id="heatmap"></div></div><div class="panel"><h3>Perfiles agrupados</h3><div id="legend" class="legend"></div><div id="multi-chart"></div></div></div>
+      <div id="gene-detail">
+        <div class="gene-head"><div><p class="eyebrow">GEN SELECCIONADO</p><h2 id="gene-id"></h2><p id="description"></p></div><div id="location" class="location"></div></div>
+        <div class="cards"><div><span>Nombre</span><strong id="gene-name"></strong></div><div><span>TPM máximo</span><strong id="max-tpm"></strong></div><div><span>Transcritos</span><strong id="tx-count"></strong></div></div>
+        <div class="panel"><h3>Perfil de expresión · promedio ± desviación estándar</h3><div id="chart"></div></div>
+        <div class="panel"><h3>Réplicas biológicas</h3><div class="table-wrap"><table><thead><tr><th>Condición</th><th>Nombre biológico</th><th>Réplica</th><th>TPM</th><th>Promedio</th><th>Desv. estándar</th><th>SRR / muestra</th></tr></thead><tbody id="replicates"></tbody></table></div></div>
+        <div class="panel"><h3>Anotación oficial y curada</h3><div id="annotation" class="annotation"></div></div>
+      </div>
+    </section>
+  </main><script src="app.js"></script>
+</body></html>
